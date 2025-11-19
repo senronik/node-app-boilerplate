@@ -1,0 +1,20 @@
+{
+  "name": "create-node-app-starter",
+  "version": "1.0.0",
+  "description": "CLI to create a Node.js starter template",
+  "main": "index.js",
+  "bin": {
+    "create-node-app-starter": "index.js"
+  },
+  "keywords": ["nodejs", "template", "cli", "starter"],
+  "author": "Ronik Sen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senronik/node-app-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/senronik/node-app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/senronik/node-app-boilerplate#readme"
+}
