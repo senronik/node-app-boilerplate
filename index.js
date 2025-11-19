@@ -39,6 +39,7 @@ copyFolder(templatePath, targetPath);
 console.log("📦 Installing dependencies...");
 execSync(`cd ${projectName} && npm install`, { stdio: "inherit" });
 
-console.log("\n🎉 Node template setup complete!");
+console.log("\n🎉 Node app setup complete!");
 console.log(`👉 cd ${projectName}`);
+console.log("👉 Create a .env file with PORT and MONGO_URI (see README)");
 console.log("👉 npm start");
