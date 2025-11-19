@@ -22,3 +22,28 @@ Just run:
 
 ```sh
 npx create-node-app-starter my-app
+```
+
+Then:
+
+```sh
+cd my-app
+```
+
+## 🔐 Environment Setup (.env)
+
+Create a `.env` file in the root of the generated project (e.g. `my-app/.env`):
+
+```env
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/test
+```
+
+- `PORT` → the port your Express server will run on (default 5000)
+- `MONGO_URI` → your MongoDB connection string
+
+Finally, start the server:
+
+```sh
+npm start
+```

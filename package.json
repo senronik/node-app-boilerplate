@@ -1,12 +1,17 @@
 {
   "name": "create-node-app-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to create a Node.js starter template",
   "main": "index.js",
   "bin": {
     "create-node-app-starter": "index.js"
   },
-  "keywords": ["nodejs", "template", "cli", "starter"],
+  "keywords": [
+    "nodejs",
+    "template",
+    "cli",
+    "starter"
+  ],
   "author": "Ronik Sen",
   "license": "MIT",
   "repository": {
